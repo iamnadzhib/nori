@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main  class="main" id="items">
+      <div class="header">
+        <div class="header_menu">
+          <div class="header_logo">
+            <a href="index.html"><img src="img/logo.png" /></a>
+          </div>
+          <div class="nav_menu">
+            <ul>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="vakansia.html">Вакансии</a></li>
+              <li><a href="#">Кэшбэк</a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <i class="bi bi-cart2"></i> 
+            <span id="cart" class="iteam-count">0</span>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="slider middle">
+          <div class="slides">
+            <input type="radio" name="r" id="r1" checked />
+            <input type="radio" name="r" id="r2" />
+            <input type="radio" name="r" id="r3" />
+            <input type="radio" name="r" id="r4" />
+
+            <div class="slide s1">
+              <img src="img/обой 1.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/обой 2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/обой 3.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/обой 4.png" alt="" />
+            </div>
+          </div>
+          <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+          </div>
+        </div>
+      </nav>
+      <div class="nav">
+        <div class="menu-row">
+          <ul>
+            <li><a href="#">Сеты</a></li>
+            <li><a href="#">Поке</a></li>
+            <li><a href="#">Ролли</a></li>
+            <li><a href="#">-30%</a></li>
+            <li><a href="#">Авторской</a></li>
+            <li><a href="#">Суши</a></li>
+            <li><a href="#">WOK</a></li>
+            <li><a href="#">Десерты</a></li>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Салаты</a></li>
+            <li><a href="#">Супы</a></li>
+            <li><a href="#">Напитки</a></li>
+            <li><a href="#">Соусы</a></li>
+          </ul>
+        </div>
+      </div>
+      <section  class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Сеты</a>
+          </h2>
+          <div class="product_carta">
+            <i id="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div id="arta_product" class="carta_product">
+              <img
+                class="product_img"
+                src="img/Сеты/Императорский Cет.jpg"
+              />
+              <h5 class="product_h5">Императорский Cет</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+             <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div id="arta_product" class="carta_product">
+              <img class="product_img" src="img/Сеты/Классика Сет.jpg" />
+              <h5 class="product_h5">Классика Сет</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+              <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div id="arta_product" class="carta_product">
+              <img class="product_img" src="img/Сеты/Токио Cет.jpg" />
+              <h5 class="product_h5">Токио Cет</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button id="iteams" class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div id="arta_product" class="carta_product">
+              <img
+                class="product_img"
+                src="img/Сеты/Филабум Cет.jpg"
+              />
+              <h5 class="product_h5">Филабум Cет</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+          </div>
+          <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Поке</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Поке/Унаги Поке.jpg"
+              />
+              <h5 class="product_h5">Унаги Поке</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Поке/Хотатэ Поке.jpg"
+              />
+              <h5 class="product_h5">Хотатэ Поке</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Поке/Чика Крабс Поке.jpg"
+              />
+              <h5 class="product_h5">Чика Крабс Поке</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Поке/Эби Поке.jpg"
+              />
+              <h5 class="product_h5">Эби Поке</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Роллы Меню XL</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Меню XL/Аризона Кранч XL.jpg"
+              />
+              <h5 class="product_h5">Аризона Кранч XL</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Меню XL/Бангкок XL.jpg"
+              />
+              <h5 class="product_h5">Бангкок XL</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Меню XL/Спринг Цезарь с креветкой XL.jpg"
+              />
+              <h5 class="product_h5">Спринг Цезарь с креветкой XL</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Меню XL/Сливочный Дуэт.jpg"
+              />
+              <h5 class="product_h5">Сливочный Дуэт</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Роллы Классические</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Классические/Ронин.jpg"
+              />
+              <h5 class="product_h5">Ронин</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Классические/Сяке Тар.jpg"
+              />
+              <h5 class="product_h5">Сяке Тар</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Классические/Тайрай.jpg"
+              />
+              <h5 class="product_h5">Тайрай</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Классические/Яки Чеддер.jpg"
+              />
+              <h5 class="product_h5">Яки Чеддер</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Роллы Запеченные</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Запеченные/Жульен Cан.jpg"
+              />
+              <h5 class="product_h5">Жульен Cан</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Запеченные/Ойши Уна.jpg"
+              />
+              <h5 class="product_h5">Ойши Уна</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Запеченные/Санта Фе.jpg"
+              />
+              <h5 class="product_h5">Санта Фе</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Запеченные/Эби Чика.jpg"
+              />
+              <h5 class="product_h5">Эби Чика</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Роллы Темпурные</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Темпурные/Четыре Сыра.jpg"
+              />
+              <h5 class="product_h5">Четыре Сыра</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Темпурные/Четыре Сыра.jpg"
+              />
+              <h5 class="product_h5">Спринг Эби</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Темпурные/Пачито.jpg"
+              />
+              <h5 class="product_h5">Пачито</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Темпурные/Кенчо.jpg"
+              />
+              <h5 class="product_h5">Кенчо</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Роллы Хосо-Маки</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Роллы Хосо-Маки/Унаги ролл.jpg" />
+              <h5 class="product_h5">Унаги ролл</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+             <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Хосо-Маки/Унаги Спайси ролл.jpg"
+              />
+              <h5 class="product_h5">Унаги Спайси ролл</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Хосо-Маки/Чиз Каппа ролл.jpg"
+              />
+              <h5 class="product_h5">Чиз Каппа ролл</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Роллы Хосо-Маки/Чиз Сяке ролл.jpg"
+              />
+              <h5 class="product_h5">Чиз Сяке ролл</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">-30% Запеченные</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Запеченные/Сяке Мотояки.jpg" />
+              <h5 class="product_h5">Сяке Мотояки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+              <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Запеченные/Унаги Мотояки.jpg"
+              />
+              <h5 class="product_h5">Унаги Мотояки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <<div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Запеченные/Фиш Мотояки.jpg"
+              />
+              <h5 class="product_h5">Фиш Мотояки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Запеченные/Эби Мотояки.jpg"
+              />
+              <h5 class="product_h5">Эби Мотояки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">-30% Темпурные</a>
+          </h2>
+          <div class="product_carta">
+            <div class="carta_product">
+              <img class="product_img" src="img/Темпурные/Калифорния Хот.jpg" />
+              <h5 class="product_h5">Калифорния Хот</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Темпурные/Эби Фурай.jpg"
+              />
+              <h5 class="product_h5">Эби Фурай</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">-30% Классические</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Классические/Канто Маки.jpg" />
+              <h5 class="product_h5">Канто Маки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Классические/Сяке Креметто.jpg"
+              />
+              <h5 class="product_h5">Сяке Креметто</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Классические/Таманеги.jpg"
+              />
+              <h5 class="product_h5">Таманеги</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Классические/Широ Маки.jpg"
+              />
+              <h5 class="product_h5">Широ Маки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Авторское Блюда от шефа</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Авторское Блюда от шефа/Фишбургер.jpg" />
+              <h5 class="product_h5">Фишбургер</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Авторское Блюда от шефа/Креветки Темпура.jpg"
+              />
+              <h5 class="product_h5">Креветки Темпура</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Авторское Блюда от шефа/Японская пицца с угрем.jpg"
+              />
+              <h5 class="product_h5">Японская пицца с угрем</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Авторское Блюда от шефа/Asia Хот-Дог с угрем.jpg"
+              />
+              <h5 class="product_h5">Asia Хот-Дог с угрем</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Авторское Авторские роллы</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Авторское Авторские роллы/Вулкан.jpg" />
+              <h5 class="product_h5">Вулкан</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Авторское Авторские роллы/Спринг Цезарь с креветкой XL.jpg"
+              />
+              <h5 class="product_h5">Спринг Цезарь с креветкой XL</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Авторское Авторские роллы/Спринг Цезарь с курицей XL.jpg"
+              />
+              <h5 class="product_h5">Спринг Цезарь с курицей XL</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Авторское Авторские роллы/Сяке Татаки.jpg"
+              />
+              <h5 class="product_h5">Сяке Татаки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+           <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">WOK</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/WOK/Вок Овощной.jpg" />
+              <h5 class="product_h5">Вок Овощной</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/WOK/ВОК по-тайски.jpg"
+              />
+              <h5 class="product_h5">ВОК по-тайски</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/WOK/ВОК по-японски.jpg"
+              />
+              <h5 class="product_h5">ВОК по-японски</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/WOK/Карбонара.jpg"
+              />
+              <h5 class="product_h5">Карбонара</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Новинки</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+
+            <div class="carta_product">
+              <img class="product_img" src="img/Новинки/Моти Пина Колада.jpg" />
+              <h5 class="product_h5">Моти Пина Колада</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Новинки/Моти Черная Смородина.jpg"
+              />
+              <h5 class="product_h5">Моти Черная Смородина</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Новинки/Токио Cет.jpg"
+              />
+              <h5 class="product_h5">Токио Cет</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Новинки/Хотатэ Поке.jpg"
+              />
+              <h5 class="product_h5">Хотатэ Поке</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Десерты</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+
+            <div class="carta_product">
+              <img class="product_img" src="img/Десерты/Моти Малиновый Чизкейк.jpg" />
+              <h5 class="product_h5">Моти Малиновый Чизкейк</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Десерты/Моти Пина Колада.jpg"
+              />
+              <h5 class="product_h5">Моти Пина Колада</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Десерты/Моти Черная Смородина.jpg"
+              />
+              <h5 class="product_h5">Моти Черная Смородина</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Десерты/Моти Шоколад.jpg"
+              />
+              <h5 class="product_h5">Моти Шоколад</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Суши Нигири</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Суши Нигири/Сяке суши.jpg" />
+              <h5 class="product_h5">Сяке суши</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Суши Нигири/Тамаго суши.jpg"
+              />
+              <h5 class="product_h5">Тамаго суши</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Суши Нигири/Унаги суши.jpg"
+              />
+              <h5 class="product_h5">Унаги суши</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Суши Нигири/Эби суши.jpg"
+              />
+              <h5 class="product_h5">Эби суши</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Суши Гунканы</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Суши Гунканы/Унаги Спайси гункан.jpg" />
+              <h5 class="product_h5">Унаги Спайси гункан</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Суши Гунканы/Хоттате Спайси гункан.jpg"
+              />
+              <h5 class="product_h5">Хоттате Спайси гункан</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Суши Гунканы/Чука гункан.jpg"
+              />
+              <h5 class="product_h5">Чука гункан</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Суши Гунканы/Эби Спайси гункан.jpg"
+              />
+              <h5 class="product_h5">Эби Спайси гункан</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Салаты</a>
+          </h2>
+          <div class="product_carta">
+            <div class="carta_product">
+              <img class="product_img" src="img/Салаты/Сизе Чиккен.jpg" />
+              <h5 class="product_h5">Сизе Чиккен</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Салаты/Сизе Эби.jpg"
+              />
+              <h5 class="product_h5">Сизе Эби</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Салаты/Чука салат.jpg"
+              />
+              <h5 class="product_h5">Чука салат</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Супы</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Супы/Мисо с грибами.jpg" />
+              <h5 class="product_h5">Мисо с грибами</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Супы/Мисо с лососем.jpg"
+              />
+              <h5 class="product_h5">Мисо с лососем</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Супы/Мисо с угрем.jpg"
+              />
+              <h5 class="product_h5">Мисо с угрем</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Супы/Том Ям.jpg"
+              />
+              <h5 class="product_h5">Том Ям</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Напитки</a>
+          </h2>
+          <div class="product_carta">
+            <div class="carta_product">
+              <img class="product_img" src="img/Напитки/Облепиховый Ice Tea.png" />
+              <h5 class="product_h5">Облепиховый Ice Tea</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Напитки/Ягодный Морс.jpg"
+              />
+              <h5 class="product_h5">Ягодный Морс</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Напитки/Кола 0,5.jpg"
+              />
+              <h5 class="product_h5">Кола 0,5</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_catalog">
+        <div class="carta">
+          <h2 class="product_name">
+            <a href="#">Соусы</a>
+          </h2>
+          <div class="product_carta">
+            <i d="arrow-left" class="bi bi-arrow-bar-left"></i>
+            <div class="carta_product">
+              <img class="product_img" src="img/Соусы/Бамбуковые палочки.jpg" />
+              <h5 class="product_h5">Бамбуковые палочки</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Соусы/Васаби соус.jpg"
+              />
+              <h5 class="product_h5">Васаби соус</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Соусы/Соевый соус.jpg"
+              />
+              <h5 class="product_h5">Соевый соус</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <div class="carta_product">
+              <img
+                class="product_img"
+                src="img/Соусы/Тайский Чили Соус.jpg"
+              />
+              <h5 class="product_h5">Тайский Чили Соус</h5>
+              <samp class="product_name_product">30 шт. | 915 гр.</samp>
+              <span class="product_sena">35 сомони</span>
+              <div class="content">
+            <<button class="glow-on-hover" type="button"><i class="bi bi-cart2"></i>Карзина</button>
+          </div>
+            </div>
+            <i  id="arrow-right" class="bi bi-arrow-bar-right"></i>
+          </div>
+        </div>
+      </section>
+      </div>
+      <footer class="footer">
+        <div class="footer_menu">
+          <div class="footer_logo">
+            <img src="img/logo.png">
+            <a href="#">Полное меню</a>
+            <a href="#">Служба контроля качества</a>
+            <a href="#">+992 988888888</a>
+          </div>
+          <div class="footer_menu_lisr">
+            <h5 class="footer_menu_lits">Меню</h5>
+            <a class="footer_menu_item" href="#">Сеты</a>
+            <a class="footer_menu_item" href="#">Поке</a>
+            <a class="footer_menu_item" href="#">Роллы</a>
+            <a class="footer_menu_item" href="#">-30%</a>
+            <a class="footer_menu_item" href="#">Авторской</a>
+            <a class="footer_menu_item" href="#">Суши</a>
+            <a class="footer_menu_item" href="#">WOK</a>
+            <a class="footer_menu_item" href="#">Десерты</a>
+            <a class="footer_menu_item" href="#">Новинки</a>
+            <a class="footer_menu_item" href="#">Салаты</a>
+            <a class="footer_menu_item" href="#">Супы</a>
+            <a class="footer_menu_item" href="#">Напитки</a>
+            <a class="footer_menu_item" href="#">Соусы</a>
+          </div>
+          <div class="insa">
+            <a href="https://www.instagram.com/nori.tj/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/nori.tjk/"><i class="bi bi-facebook"></i></a>
+            <a href="https://t.me/noritj"><i class="bi bi-telegram"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

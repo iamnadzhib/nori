@@ -1,0 +1,610 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Caprasimo&family=Lobster&family=Noto+Sans:ital,wght@0,800;1,800&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&family=Rubik+Wet+Paint&family=Tektur:wght@400;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+}
+
+.main {
+  height: 100px;
+  margin: 10px;
+  padding: 10px 5px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+}
+a:hover {
+  color: chartreuse;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  text-align: none;
+}
+.nav_menu {
+  padding: 9px;
+  margin: 14px;
+}
+.nav {
+  padding: 20px;
+}
+
+.nav_menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_menu ul a {
+  margin: 15px;
+}
+
+.section_img img {
+  width: 400px;
+  height: 400px;
+  margin-left: 400px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-row ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-row ul a {
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+dl,
+ol,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.carta_product {
+  background-color: black;
+  border-radius: 13px;
+  width: 351px;
+  height: 427px;
+  padding: 17px;
+}
+
+h5 {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+}
+
+h2 {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+}
+
+span {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+}
+
+.product_name_product {
+  display: flex;
+  align-items: flex-start;
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.product_h5 {
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+  align-items: flex-start;
+}
+.product_sena {
+  display: flex;
+  align-items: flex-start;
+  font-size: 19px;
+  margin-top: 18px;
+}
+
+.product_carta {
+  display: flex;
+  gap: 40px;
+  margin: 15px;
+}
+
+span {
+  color: #ffffff;
+}
+
+.product_name_product {
+  color: white;
+}
+
+.product_name {
+  margin-left: 32px;
+}
+
+.slider {
+  width: 1100px;
+  height: 400px;
+  overflow: hidden;
+}
+.middle {
+  position: absolute;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  height: 8px;
+  width: 30px;
+  margin: 6px;
+  cursor: pointer;
+  background-color: #ddd;
+  opacity: 0.7;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+.bar:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+.slide {
+  width: 25%;
+  transition: all 0.6s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+#r2:checked ~ .s1 {
+  margin-left: -25%;
+}
+#r3:checked ~ .s1 {
+  margin-left: -50%;
+}
+#r4:checked ~ .s1 {
+  margin-left: -75%;
+}
+
+nav {
+  margin: 175px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 217px;
+  margin-left: 22px;
+}
+
+.footer {
+  background-color: rgb(1, 6, 6);
+  width: 100%;
+  height: 218px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 24px;
+}
+
+.footer_logo img {
+  width: 131px;
+  height: 40px;
+}
+.footer_menu_lisr {
+  padding: 10px;
+  margin-left: 40px;
+  gap: 10px;
+}
+.footer_menu_lits {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footer_menu_item {
+  margin: 5px;
+  margin-top: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.glow-on-hover {
+  width: 137px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+  font-size: 23px;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.product_carta button {
+  margin-top: 22px;
+  margin-left: 164px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carta_product img {
+  margin-left: 23px;
+}
+
+.bi {
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+
+  font-family: Tektur, cursive;
+}
+
+.bi:hover {
+  color: #48ff00;
+}
+
+.content {
+  display: flex;
+}
+
+.iteam-count:hover {
+  color: #48ff00;
+}
+
+.vacansia {
+  margin: 10px;
+  gap: 10px;
+}
+.h2_vak {
+  margin: 20px;
+  height: 20px;
+  gap: 20px;
+}
+.h3_vak {
+  margin: 20px;
+  height: 20px;
+  color: #00ffd5;
+}
+
+.catta_vakasnis {
+  border-radius: 16px;
+  width: 195px;
+  height: 135px;
+  background-color: #000;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+  font-size: 23px;
+}
+
+.h6_vak {
+  color: #00ffd5;
+  margin: 20px;
+  height: 13px;
+  font-size: 13px;
+}
+
+.h5_vak {
+  color: #00ffd5;
+  margin: 20px;
+  height: 20px;
+}
+
+.button_vak {
+  color: #010c0b;
+  margin-left: 27px;
+  height: 31px;
+  margin-right: 38px;
+  border-radius: 19px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+  font-size: 9px;
+}
+
+.button_vak:hover {
+  background-color: #48ff00;
+}
+
+.carta_vakansia {
+  display: flex;
+  gap: 10px;
+}
+
+.vacansia {
+  margin: 100px;
+}
+
+.sel {
+  display: flex;
+  gap: 10;
+}
+
+.ul_ank {
+  margin: 17px;
+  height: 126px;
+  padding: 10px;
+}
+
+.p_vak {
+  color: #00ffd5;
+  margin-top: 14px;
+}
+.ul_vak {
+  margin: 10px;
+}
+
+.h3_vak {
+  color: #00ffd5;
+  margin-top: 60px;
+}
+
+.sel {
+  margin-top: 46px;
+}
+
+.h4_vak {
+  color: #db5507;
+}
+
+.p_val {
+  color: #00ffd5;
+  margin-top: 46px;
+}
+
+.nawa_s {
+  gap: 10px;
+}
+.anket {
+  margin-top: 16px;
+  gap: 10px;
+}
+.input_vak input {
+  background-color: #390217;
+  margin: 10px;
+  border-radius: 10px;
+  padding-right: 78px;
+  height: 32px;
+  text-align: justify;
+  padding-left: 11px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Tektur", cursive;
+  font-size: 10px;
+}
+input text {
+  margin: 100%;
+}
+
+.insa {
+  display: flex;
+  margin: 30px;
+  gap: 10px;
+}
+
+.carta {
+  justify-content: flex-start;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.product_carta .bi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.carta_product:hover {
+  color: #48ff00;
+}
